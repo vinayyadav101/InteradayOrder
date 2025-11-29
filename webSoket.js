@@ -18,7 +18,7 @@ socket.addEventListener('open', function () {
 				));
 			}
 })
-
+ 
 		
         socket.addEventListener('error', function (event) {
             console.log("error",event.error);
